@@ -5,6 +5,7 @@ meta:
   bitrise.io:
     machine_type: standard
     machine_type_id: standard
+    stack: linux-docker-android-20.04
 trigger_map:
 - push_branch: master
   workflow: test
